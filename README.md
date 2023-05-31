@@ -6,7 +6,7 @@ Implementation of contingent claim pricing models via C++
 
 This repository contains an implementation of design patterns in the context of derivative pricing using C++. It serves as a learning resource and code reference for developers interested in understanding and applying design patterns in financial software development.
 
-##Design Patterns
+## Design Patterns
 
 Design patterns are proven solutions to recurring problems in software design. By leveraging these patterns, developers can create flexible, maintainable, and extensible code. In this repository, we focus on the following design patterns commonly used in derivative pricing:
 
