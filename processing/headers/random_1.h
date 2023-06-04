@@ -8,5 +8,3 @@ double GetOneGaussianbySummation();
 double GetOneGaussianbyBoxMuller();
 
 #endif // !RANDOM1_H
-
-// test comment
