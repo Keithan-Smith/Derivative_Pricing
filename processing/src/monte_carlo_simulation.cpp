@@ -8,7 +8,7 @@
 using namespace std;
 
 
-// Below we make the declaration for our function 
+// Below we make the declaration for our function simple monte carlo
 double SimpleMonteCarlo(double Expiry,
 	double Strike,
 	double Spot,
