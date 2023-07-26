@@ -5,14 +5,11 @@
 
 double  GetOneGaussianbySummation()
 {
-	double result = 0;
-
+	double sum = 0;
 	for (unsigned long j = 0; j < 12; j++)
-		result += rand() / static_cast<double>(RAND_MAX);
+		sum += static_cast<double>(rand()) / RAND_MAX - 0.5; // Random number between -0.5 and 0.5
 
-	result -= 6.0;
-
-	return result;
+	return sum / sqrt(12.0); // Normalize by dividing by the square root of 12
 }
 
 double GetOneGaussianbyBoxMuller()
