@@ -63,7 +63,7 @@ int main()
 		riskFreeRate,
 		NumberOfPaths);
 
-	cout << "\nThe price is " << result << "\n";
+	cout << "\nThe price is " << result << "." << "\n";
 
 	double tmp;
 	cin >> tmp;
