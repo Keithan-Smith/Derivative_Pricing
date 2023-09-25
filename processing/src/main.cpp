@@ -63,7 +63,9 @@ int main()
 		riskFreeRate,
 		NumberOfPaths);
 
-	cout << "\nThe price is " << result << "\n";
+	cout << "\nThe price is " << result << "." << "\n";
+
+	cout << "I made this change after a successful clone! << endl;
 
 	double tmp;
 	cin >> tmp;
